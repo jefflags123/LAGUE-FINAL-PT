@@ -1,0 +1,39 @@
+/* login.css */
+.ion-page {
+  --background: #2c3e50; /* New background color */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 16px;
+}
+
+.animated-placeholder {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.ion-focused .animated-placeholder {
+  --border-width: 2px;
+}
+
+.login-button {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.signup-text {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.error-message {
+  margin-top: 8px;
+  color: red;
+  text-align: center;
+}

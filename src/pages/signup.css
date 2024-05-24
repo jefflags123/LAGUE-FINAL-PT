@@ -1,0 +1,48 @@
+/* Form container */
+.form-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+/* Input fields */
+.animated-placeholder .ion-label {
+  color: #4CAF50; /* Green color */
+}
+
+.animated-placeholder.ion-focused .ion-label {
+  color: #acbfce; /* Blue color when focused */
+}
+
+/* Error message */
+.error-message {
+  color: #f44336; /* Red color for error messages */
+  margin-top: 10px;
+}
+
+/* Button group */
+.button-group {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-button {
+  --background: #FF5722; /* Orange color */
+  --border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Signup text */
+.signup-text {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.signup-text span {
+  color: #000000; /* Brown color */
+  cursor: pointer;
+}
+
+.signup-text span:hover {
+  text-decoration: underline;
+}
